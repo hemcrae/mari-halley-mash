@@ -4,12 +4,13 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.21.1",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "concurrently": "^6.0.2"
   },
   "devDependencies": {},
   "scripts": {
+    "client": "cd front-end && npm start",
+    "server": "cd back-end && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
