@@ -94,11 +94,11 @@ export default class App extends React.Component{
                 <button className="form__button" onClick={(event) => { event.preventDefault(); this.calculate() }}>Submit</button>
             </form>
 
-            <div>
+            <div className="results">
                 {this.state.results.length > 0 && this.state.results.map((r) => (
-                    <div>
-                        <h2>{r.key}</h2>
-                        <img src={r.image} />
+                    <div className="results__wrapper">
+                        <h2 className="results__heading">{r.key}</h2>
+                        <img className="results__image" src={r.image} />
                     </div>
                 ))}
             </div>
