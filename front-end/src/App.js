@@ -97,11 +97,7 @@ export default class App extends React.Component{
             <div className="results">
                 {this.state.results.length > 0 && this.state.results.map((r) => (
                     <div className="results__wrapper">
-<<<<<<< HEAD
                         <h2 className="results__heading">{r.key}</h2>
-=======
-                        <h2 className="results__name">{r.key}</h2>
->>>>>>> af1fec290b0643b80136f359d6b9b09ba296245b
                         <img className="results__image" src={r.image} />
                     </div>
                 ))}

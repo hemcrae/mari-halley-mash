@@ -96,18 +96,13 @@ body {
   }
   &__image {
     width: 40%;
+    height: 250px;
   }
   &__heading {
     font-size: 2rem;
     font-family: "Dela";
     text-transform: capitalize;
     color: #ff9636;
-  }
-
-
-  &__image { 
-    width: 250px;
-    height: 250px;
   }
 }
 
