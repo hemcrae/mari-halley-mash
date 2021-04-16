@@ -59,32 +59,32 @@
     {
       "id": "5d79f5ad-c2f1-4780-ac9d-15a9ee2818c2",
       "value": "Web Developer",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif"
     },
     {
       "id": "caf57e09-a2a7-41eb-b5d0-89df445eef29",
       "value": "Nail Technician",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/a49hyUGwd082k/giphy.gif"
     },
     {
       "id": "3d0a1865-f5f7-4889-82e2-4923ab98e0d5",
       "value": "Pet Groomer",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/bSIwCqjd9kTNJ6AAhg/giphy.gif"
     },
     {
       "id": "5a1b00dd-e953-4b53-bede-58296b7e89a3",
       "value": "Mortician",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": ""
     },
     {
       "id": "816e46ff-91b5-44ac-b463-203a890cfb74",
       "value": "Hotel Cleaner",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/5Yt4xKb0e13UXWg0zh/giphy.gif"
     },
     {
       "id": "06254398-fd7c-4c1c-8e3c-9fcbc7355fe7",
       "value": "Apple CTO",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/S9oecmLUi26zYzrTZt/giphy.gif"
     }
   ],
 
@@ -92,32 +92,33 @@
     {
       "id": "01f36417-144d-43e2-9ff6-41d85a67c774",
       "value": "Timmins",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/3o6wrklnyPBQaZBvj2/giphy.gif"
     },
     {
+      
       "id": "0c921ce1-098c-4209-b189-f433d09a86d5",
       "value": "London, UK",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/kHRDtw0X88kwg/giphy.gif"
     },
     {
       "id": "85f33c70-b9b9-4315-ad3e-2102675442e0",
       "value": "Vancouver",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://604now.com/wp-content/uploads/2015/09/lamborghini-vancouver-1.jpg"
     },
     {
       "id": "8b583b38-4bbe-4fd5-b1f8-3bb74f03db9a",
       "value": "San Francisco",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/ePMOCoSo0CqrGKOzCe/giphy.gif"
     },
     {
       "id": "1717a312-bcc2-44fa-a042-3fe67dda76ef",
       "value": "Toronto",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/TGKL4iAsXQhriJ8Tia/giphy.gif"
     },
     {
       "id": "b573bc26-665d-43d5-b019-9089c31da0c7",
-      "value": "Poughkeepsie",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "value": "Punxsutawney",
+      "image": "https://media.giphy.com/media/5xtDarqIj5p3klmiEQo/giphy.gif"
     }
   ],
 
@@ -125,12 +126,12 @@
     {
       "id": "022fcb1e-6e02-43a4-a28c-dd784ce36bee",
       "value": "Dog",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/fnlXXGImVWB0RYWWQj/giphy.gif"
     },
     {
       "id": "c1520b04-d121-4621-809c-ddf767501131",
       "value": "Cat",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif"
     },
     {
       "id": "c992484e-b7ce-4a42-baba-f6bc85b86362",
@@ -140,17 +141,17 @@
     {
       "id": "f6a0f023-0bb1-45e2-93fa-6ca926a37c54",
       "value": "Fish",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/QtZKO7mb7ebpC/giphy.gif"
     },
     {
       "id": "5b74b3f3-60b2-4161-a769-34a9f8f46638",
       "value": "Blobfish",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/QGBWk7DnckEN2/giphy.gif"
     },
     {
       "id": "70e04108-0229-4124-acc0-8e0f35e2ec0b",
       "value": "Cockroach",
-      "image": "https://i.imgur.com/5qyCZrD.jpg"
+      "image": "https://media.giphy.com/media/joYf3Ba2phD15ch9Nt/giphy.gif"
     }
   ],
 
