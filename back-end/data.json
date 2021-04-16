@@ -1,162 +1,155 @@
-[
-  {
-    "mash": [
-      {
-        "home": "Mansion",
-        "image": "https://media.giphy.com/media/hvdDU8lXnURFyEhf7w/giphy.gif"
-      },
-      {
-        "home": "Appartment",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "home": "Shack",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "home": "House",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  },
-  {
-    "spouse": [
-      {
-        "name": "Kim Kardashian",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "name": "Cardi B",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "name": "Lindsay Lohan",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "name": "Donald Trump",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "name": "Elon Musk",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "name": "Idris Elba",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  },
-  {
-    "jobs": [
-      {
-        "carrer": "Web Developer",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "carrer": "Nail Technician",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "carrer": "Pet Groomer",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "carrer": "Mortician",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "carrer": "Hotel Cleaner",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "carrer": "Apple CTO",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  },
-  {
-    "location": [
-      {
-        "city": "Timmins",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "city": "London, UK",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "city": "Vancouver",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "city": "San Francisco",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "city": "Toronto",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "city": "Poughkeepsie",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  },
-  {
-    "animal": [
-      {
-        "pet": "Dog",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "pet": "Cat",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "snpet": "Snake",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "pet": "Fish",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "pet": "Blobfish",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "pet": "Cockroach",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  },
-  {
-    "transport": [
-      {
-        "method": "Tesla Cybertruck",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "method": "Toyota Yaris",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "method": "City Bus",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "method": "Bugatti",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "method": "Bugatti",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      },
-      {
-        "method": "Adult Tricycle",
-        "image": "https://i.imgur.com/5qyCZrD.jpg"
-      }
-    ]
-  }
-]
+{
+  "mash": [
+    {
+      "home": "Mansion",
+      "image": "https://media.giphy.com/media/hvdDU8lXnURFyEhf7w/giphy.gif"
+    },
+    {
+      "home": "Appartment",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "home": "Shack",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "home": "House",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ],
+
+  "spouse": [
+    {
+      "name": "Kim Kardashian",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "name": "Cardi B",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "name": "Lindsay Lohan",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "name": "Donald Trump",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "name": "Elon Musk",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "name": "Idris Elba",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ],
+
+  "jobs": [
+    {
+      "career": "Web Developer",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "career": "Nail Technician",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "career": "Pet Groomer",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "career": "Mortician",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "career": "Hotel Cleaner",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "career": "Apple CTO",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ],
+
+  "location": [
+    {
+      "city": "Timmins",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "city": "London, UK",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "city": "Vancouver",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "city": "San Francisco",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "city": "Toronto",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "city": "Poughkeepsie",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ],
+
+  "animal": [
+    {
+      "pet": "Dog",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "pet": "Cat",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "pet": "Snake",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "pet": "Fish",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "pet": "Blobfish",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "pet": "Cockroach",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ],
+
+  "transport": [
+    {
+      "method": "Tesla Cybertruck",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "method": "Toyota Yaris",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "method": "City Bus",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "method": "Bugatti",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "method": "Mom Van",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    },
+    {
+      "method": "Adult Tricycle",
+      "image": "https://i.imgur.com/5qyCZrD.jpg"
+    }
+  ]
+}
