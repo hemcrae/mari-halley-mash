@@ -1,25 +1,75 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends React.Component{
+    render() {
+    return ( 
+        <>
+        <header className="header">
+            <div className="header-title">
+                <h1>
+                    <span>M.</span>
+                    <span>A.</span>
+                    <span>S.</span>
+                    <span>H.</span>
+                </h1>
+            </div>
+            <div className="header-lists">
+                <ul className="header-list">
+                    <li className="header-item"></li>
+                </ul>
+            </div>
+        </header>
+    
+        <section className="main">
+            <form className="form">
+                <div className="form__card">
+                    <label className="form__label" for="spouses" name="spouse">
+                        Spouses
+                    </label>
+                    <select className="form__select" id="spouse"name="spouse" multiple>
+                        <option className="form__option">Kim Kardashian</option>
+                    </select>
+                </div>
+                <div className="form__card">
+                    <label className="form__label" for="location" name="location">
+                        Location
+                    </label>
+                    <select className="form__select" id="location" name="location" multiple>
+                        <option className="form__option">Vancouver</option>
+                    </select>
+                </div>
+                <div className="form__card">
+                    <label className="form__label" for="jobs" name="jobs">
+                        Jobs
+                    </label>
+                    <select className="form__select" id="jobs" name="jobs" multiple>
+                        <option className="form__option">Banker</option>
+                    </select>
+                </div>
+                <div className="form__card">
+                    <label className="form__label" for="pet" name="pet">
+                        Pet
+                    </label>
+                    <select className="form__select" id="pet" name="pet" multiple>
+                        <option className="form__option">Dog</option>
+                    </select>
+                </div>
+                <div className="form__card">
+                    <label className="form__label" for="transport" name="transport">
+                        Car
+                    </label>
+                    <select className="form__select" id="transport" name="transport" multiple>
+                        <option className="form__option">Tesla</option>
+                    </select>
+                </div>
+                <button className="form__button">Submit</button>
+            </form>
+        </section>
+        </>
+    );
+
+    }
 }
 
-export default App;
