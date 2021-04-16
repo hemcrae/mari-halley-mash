@@ -3,6 +3,7 @@
 body {
   background-color: #0a4158;
 }
+
 .header {
   font-size: 3rem;
   font-family: "Dela";
@@ -102,4 +103,11 @@ body {
     text-transform: capitalize;
     color: #ff9636;
   }
+
+
+  &__image { 
+    width: 250px;
+    height: 250px;
+  }
 }
+
