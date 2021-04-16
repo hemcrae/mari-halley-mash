@@ -1,154 +1,188 @@
 {
   "mash": [
     {
-      "home": "Mansion",
+      "id": "e949ec18-1459-415c-bb40-c0f41a68abfc",
+      "value": "Mansion",
       "image": "https://media.giphy.com/media/hvdDU8lXnURFyEhf7w/giphy.gif"
     },
     {
-      "home": "Appartment",
+      "id": "b987fc7e-f1fa-44dd-986f-f807ab09de03",
+      "value": "Appartment",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "home": "Shack",
+      "id": "2613c5dc-b1e1-4d82-8dc9-a1aba85e48c7",
+      "value": "Shack",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "home": "House",
+      "id": "0ee11ab9-27e8-4e2d-99ec-191961c9997b",
+      "value": "House",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ],
 
   "spouse": [
     {
-      "name": "Kim Kardashian",
+      "id": "77784ae9-e789-4ec4-935e-da830ff8ed10",
+      "value": "Kim Kardashian",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "name": "Cardi B",
+      "id": "669ec59a-aab9-4557-b408-864b3c20fd80",
+      "value": "Cardi B",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "name": "Lindsay Lohan",
+      "id": "7c4fb8ce-1756-46d4-8f8a-7deff896f755",
+      "value": "Lindsay Lohan",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "name": "Donald Trump",
+      "id": "f6beb6f4-8dc8-4ed2-93f9-d0abf074999a",
+      "value": "Donald Trump",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "name": "Elon Musk",
+      "id": "c41116fa-8a13-48bd-a58f-ebe53072e1f2",
+      "value": "Elon Musk",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "name": "Idris Elba",
+      "id": "867b1961-222e-4afe-b6db-c2e1782607c8",
+      "value": "Idris Elba",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ],
 
   "jobs": [
     {
-      "career": "Web Developer",
+      "id": "5d79f5ad-c2f1-4780-ac9d-15a9ee2818c2",
+      "value": "Web Developer",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "career": "Nail Technician",
+      "id": "caf57e09-a2a7-41eb-b5d0-89df445eef29",
+      "value": "Nail Technician",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "career": "Pet Groomer",
+      "id": "3d0a1865-f5f7-4889-82e2-4923ab98e0d5",
+      "value": "Pet Groomer",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "career": "Mortician",
+      "id": "5a1b00dd-e953-4b53-bede-58296b7e89a3",
+      "value": "Mortician",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "career": "Hotel Cleaner",
+      "id": "816e46ff-91b5-44ac-b463-203a890cfb74",
+      "value": "Hotel Cleaner",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "career": "Apple CTO",
+      "id": "06254398-fd7c-4c1c-8e3c-9fcbc7355fe7",
+      "value": "Apple CTO",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ],
 
   "location": [
     {
-      "city": "Timmins",
+      "id": "01f36417-144d-43e2-9ff6-41d85a67c774",
+      "value": "Timmins",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "city": "London, UK",
+      "id": "0c921ce1-098c-4209-b189-f433d09a86d5",
+      "value": "London, UK",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "city": "Vancouver",
+      "id": "85f33c70-b9b9-4315-ad3e-2102675442e0",
+      "value": "Vancouver",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "city": "San Francisco",
+      "id": "8b583b38-4bbe-4fd5-b1f8-3bb74f03db9a",
+      "value": "San Francisco",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "city": "Toronto",
+      "id": "1717a312-bcc2-44fa-a042-3fe67dda76ef",
+      "value": "Toronto",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "city": "Poughkeepsie",
+      "id": "b573bc26-665d-43d5-b019-9089c31da0c7",
+      "value": "Poughkeepsie",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ],
 
   "animal": [
     {
-      "pet": "Dog",
+      "id": "022fcb1e-6e02-43a4-a28c-dd784ce36bee",
+      "value": "Dog",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "pet": "Cat",
+      "id": "c1520b04-d121-4621-809c-ddf767501131",
+      "value": "Cat",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "pet": "Snake",
+      "id": "c992484e-b7ce-4a42-baba-f6bc85b86362",
+      "value": "Snake",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "pet": "Fish",
+      "id": "f6a0f023-0bb1-45e2-93fa-6ca926a37c54",
+      "value": "Fish",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "pet": "Blobfish",
+      "id": "5b74b3f3-60b2-4161-a769-34a9f8f46638",
+      "value": "Blobfish",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "pet": "Cockroach",
+      "id": "70e04108-0229-4124-acc0-8e0f35e2ec0b",
+      "value": "Cockroach",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ],
 
   "transport": [
     {
-      "method": "Tesla Cybertruck",
+      "id": "23153292-0c8f-405d-b411-c7b85216559d",
+      "value": "Tesla Cybertruck",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "method": "Toyota Yaris",
+      "id": "0b406cff-ae05-4f49-90cd-73faa332ce5f",
+      "value": "Toyota Yaris",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "method": "City Bus",
+      "id": "8338d654-e8e8-4918-82b1-a4baa15b667a",
+      "value": "City Bus",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "method": "Bugatti",
+      "id": "1eb76e98-33e8-4a61-b206-f94a09b93e21",
+      "value": "Bugatti",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "method": "Mom Van",
+      "id": "fe6685f3-7fe4-4dd9-8ced-116626b13a9b",
+      "value": "Mom Van",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     },
     {
-      "method": "Adult Tricycle",
+      "id": "83ee5e42-e703-42fe-b376-40c2cdba43a0",
+      "value": "Adult Tricycle",
       "image": "https://i.imgur.com/5qyCZrD.jpg"
     }
   ]

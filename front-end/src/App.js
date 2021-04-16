@@ -7,17 +7,53 @@ const MASHUrl = 'http://localhost:8080'
 export default class App extends React.Component{
 
     state = {
-        data: []
+        data: [],
+        fields: {},
+        results: []
     };
 
     componentDidMount() { 
         axios
             .get(MASHUrl)
-            .then(res => {
+            .then(({ data }) => {
+                const fields = {}
+
+                Object.keys(data).forEach(key => {
+                    fields[key] = []
+                })
+
                 this.setState({
-                    data: res.data
+                    data: data,
+                    fields: fields
                 })
             });
+    }
+
+    handleSelectChange(key, options) {
+        const values = Array.from(options).map(option => option.value)
+        const fields = { ...this.state.fields }
+        fields[key] = values
+        this.setState({
+            fields: fields
+        })
+    }
+
+    calculate () {
+        const objects = Object.entries(this.state.fields).map(([key, ids]) => {
+            const selectedIdIndex = this.randomNumber(0, ids.length)
+            const selectedId = ids[selectedIdIndex];
+
+            const found = this.state.data[key].find(option => option.id === selectedId)
+            return { ...found, key: key }
+        })
+
+        this.setState({
+            results: objects
+        })
+    }
+
+    randomNumber (min, max) { 
+        return Math.floor(Math.random() * max) + min
     }
 
     render() {
@@ -41,48 +77,30 @@ export default class App extends React.Component{
     
         <section className="main">
             <form className="form">
-                <div className="form__card">
-                    <label className="form__label" htmlFor="spouses" name="spouse">
-                        Spouses
-                    </label>
-                    <select className="form__select" id="spouse"name="spouse" multiple>
-                        <option className="form__option">Kim Kardashian</option>
-                    </select>
-                </div>
-                <div className="form__card">
-                    <label className="form__label" htmlFor="location" name="location">
-                        Location
-                    </label>
-                    <select className="form__select" id="location" name="location" multiple>
-                        <option className="form__option">Vancouver</option>
-                    </select>
-                </div>
-                <div className="form__card">
-                    <label className="form__label" htmlFor="jobs" name="jobs">
-                        Jobs
-                    </label>
-                    <select className="form__select" id="jobs" name="jobs" multiple>
-                        <option className="form__option">Banker</option>
-                    </select>
-                </div>
-                <div className="form__card">
-                    <label className="form__label" htmlFor="pet" name="pet">
-                        Pet
-                    </label>
-                    <select className="form__select" id="pet" name="pet" multiple>
-                        <option className="form__option">Dog</option>
-                    </select>
-                </div>
-                <div className="form__card">
-                    <label className="form__label" htmlFor="transport" name="transport">
-                        Car
-                    </label>
-                    <select className="form__select" id="transport" name="transport" multiple>
-                        <option className="form__option">Tesla</option>
-                    </select>
-                </div>
-                <button className="form__button">Submit</button>
+                {Object.entries(this.state.data).map(([key, options]) => (
+                    <div className="form__card" key={key}>
+                        <label className="form__label" htmlFor={key}>
+                            {key}
+                        </label>
+                        <select className="form__select" id={key} name={key} multiple onChange={(event) => this.handleSelectChange(key, event.target.selectedOptions)}>
+                            {options.map((option) => (
+                                <option className="form__option" value={option.id}>{option.value}</option>
+                            ))}
+                        </select>
+                    </div>
+                ))}
+                
+                <button className="form__button" onClick={(event) => { event.preventDefault(); this.calculate() }}>Submit</button>
             </form>
+
+            <div>
+                {this.state.results.length > 0 && this.state.results.map((r) => (
+                    <div>
+                        <h2>{r.key}</h2>
+                        <img src={r.image} />
+                    </div>
+                ))}
+            </div>
         </section>
         </>
     );
