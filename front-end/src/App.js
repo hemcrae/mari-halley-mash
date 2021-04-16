@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
+import "./styles/global.scss";
 
 const MASHUrl = 'http://localhost:8080'
 
@@ -60,21 +61,21 @@ export default class App extends React.Component{
     return (
         <>
         <header className="header">
-            <div className="header-title">
-                <h1>
-                    <span>M.</span>
-                    <span>A.</span>
-                    <span>S.</span>
-                    <span>H.</span>
-                </h1>
-            </div>
-            <div className="header-lists">
+          <div className="header-title">
+            <h1 className="title">
+              <span>M.</span>
+              <span>A.</span>
+              <span>S.</span>
+              <span>H.</span>
+            </h1>
+          </div>
+          {/* <div className="header-lists">
                 <ul className="header-list">
                     <li className="header-item"></li>
                 </ul>
-            </div>
+            </div> */}
         </header>
-    
+
         <section className="main">
             <form className="form">
                 {Object.entries(this.state.data).map(([key, options]) => (
@@ -102,9 +103,7 @@ export default class App extends React.Component{
                 ))}
             </div>
         </section>
-        </>
+      </>
     );
-
-    }
+  }
 }
-
