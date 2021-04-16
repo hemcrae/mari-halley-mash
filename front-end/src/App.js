@@ -1,10 +1,27 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
 
+const MASHUrl = 'http://localhost:8080'
 
 export default class App extends React.Component{
+
+    state = {
+        data: []
+    };
+
+    componentDidMount() { 
+        axios
+            .get(MASHUrl)
+            .then(res => {
+                this.setState({
+                    data: res.data
+                })
+            });
+    }
+
     render() {
-    return ( 
+    return (
         <>
         <header className="header">
             <div className="header-title">
@@ -25,7 +42,7 @@ export default class App extends React.Component{
         <section className="main">
             <form className="form">
                 <div className="form__card">
-                    <label className="form__label" for="spouses" name="spouse">
+                    <label className="form__label" htmlFor="spouses" name="spouse">
                         Spouses
                     </label>
                     <select className="form__select" id="spouse"name="spouse" multiple>
@@ -33,7 +50,7 @@ export default class App extends React.Component{
                     </select>
                 </div>
                 <div className="form__card">
-                    <label className="form__label" for="location" name="location">
+                    <label className="form__label" htmlFor="location" name="location">
                         Location
                     </label>
                     <select className="form__select" id="location" name="location" multiple>
@@ -41,7 +58,7 @@ export default class App extends React.Component{
                     </select>
                 </div>
                 <div className="form__card">
-                    <label className="form__label" for="jobs" name="jobs">
+                    <label className="form__label" htmlFor="jobs" name="jobs">
                         Jobs
                     </label>
                     <select className="form__select" id="jobs" name="jobs" multiple>
@@ -49,7 +66,7 @@ export default class App extends React.Component{
                     </select>
                 </div>
                 <div className="form__card">
-                    <label className="form__label" for="pet" name="pet">
+                    <label className="form__label" htmlFor="pet" name="pet">
                         Pet
                     </label>
                     <select className="form__select" id="pet" name="pet" multiple>
@@ -57,7 +74,7 @@ export default class App extends React.Component{
                     </select>
                 </div>
                 <div className="form__card">
-                    <label className="form__label" for="transport" name="transport">
+                    <label className="form__label" htmlFor="transport" name="transport">
                         Car
                     </label>
                     <select className="form__select" id="transport" name="transport" multiple>
